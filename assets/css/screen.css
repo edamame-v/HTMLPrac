@@ -1,0 +1,27 @@
+/* Desktop Components*/
+@media screen and (max-width: 1798){
+    .container{
+        max-width: 940px;
+    }
+}
+
+/* Tablet Components*/
+@media screen and (max-width: 770px){
+    .container{
+        max-width: 728px;
+    }
+}
+
+/* Mobile (L) Components */
+@media screen and (max-width: 560px){
+    .container{
+        max-width: none;
+    }
+}
+
+/* Mobile (P) Components*/
+@media screen and (max-width: 320px){
+    .container{
+        max-width: None;
+    }
+}   
