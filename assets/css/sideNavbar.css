@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+
+#sidebarWrapper{
+    background-color: #219ebc;
+    position: fixed;
+    height: 100%;
+    width: 15vw;
+}
+
+#contentWrapper{
+    background-color: #ffb703;
+    margin-left: 15vw;
+    width: 85vw;
+}
+
+#slideshow{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(17 17 17);
+}
+
+#containerWrapper{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    background-color: #fb8500;
+}
+
+#sidebar{
+    background-color: #023047;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+#sidebar > a{
+    width: 15vw;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #8ecae6;
+    text-align: center;
+}
+
+.containerContent{
+    height: 50vh;
+    width: 100%
+}
